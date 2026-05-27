@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+
+  mysql:
+    image: ubuntu
+    container_name: MySql
+    tty: true
+
+  webserver:
+    image: ubuntu
+    container_name: WebServer
+    tty: true
